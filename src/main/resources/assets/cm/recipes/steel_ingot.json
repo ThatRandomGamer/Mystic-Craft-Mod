@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+   
+    "key":
+    {
+        "N":
+        {
+            "item": "cm:steel_nugget"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:steel_ingot",
+        "count": 1,
+        "data":0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=normal": { "model":"cm:limestone_normal" }
+    }
+}

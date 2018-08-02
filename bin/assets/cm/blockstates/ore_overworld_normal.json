@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variant=normal": { "model":  ["cm:copper_ore_normal", "cm:silver_ore_normal", "cm:limestone_normal", "cm:tin_ore_normal"] }
+     
+    }
+}

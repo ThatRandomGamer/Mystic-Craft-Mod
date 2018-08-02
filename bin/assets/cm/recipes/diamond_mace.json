@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CCC",
+        "CCC",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:diamond"
+        }
+        ,
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cm:diamond_mace",
+        "count": 1
+    }
+}

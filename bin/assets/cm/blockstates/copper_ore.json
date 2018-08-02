@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=normal": { "model": "cm:copper_ore_normal" }
+    }
+}

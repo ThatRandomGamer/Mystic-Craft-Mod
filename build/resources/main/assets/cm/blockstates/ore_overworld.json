@@ -1,0 +1,8 @@
+{
+    "variants":
+    {
+        "variant=tin": { "model": "cm:ore_overworld_tin" },
+        "variant=silver": { "model": "cm:ore_overworld_silver" },
+        "variant=copper": { "model": "cm:ore_overworld_copper" }
+    }
+}

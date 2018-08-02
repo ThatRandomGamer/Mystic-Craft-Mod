@@ -1,0 +1,10 @@
+//Items
+
+item.copper_ingot.name=Copper Ingot
+
+//Tools
+item.copper_ingot_sword.name=Copper Sword
+item.copper_ingot_pickaxe.name=Copper Pickaxe
+item.copper_ingot_axe.name=Copper Axe
+item.copper_ingot_shovel.name=Copper Shovel
+item.copper_ingot_hoe.name=Copper Hoe

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+   
+    "key":
+    {
+        "N":
+        {
+            "item": "cm:bronze_nugget"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:bronze_ingot",
+        "count": 1,
+        "data":0
+    }
+}

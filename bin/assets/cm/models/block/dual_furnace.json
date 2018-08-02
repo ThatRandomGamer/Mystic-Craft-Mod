@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "cm:blocks/dual_furnace_front_off",
+        "up": "cm:blocks/dual_furnace_side3",
+        "down": "cm:blocks/dual_furnace_side3",
+        "north": "cm:blocks/dual_furnace_front_off",
+        "east": "cm:blocks/dual_furnace_side1",
+        "south": "cm:blocks/dual_furnace_side1",
+        "west": "cm:blocks/dual_furnace_side1"
+    }
+}

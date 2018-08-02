@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " C ",
+        "CCC",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:gold_ingot"
+        }
+        ,
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cm:gold_sai",
+        "count": 1
+    }
+}

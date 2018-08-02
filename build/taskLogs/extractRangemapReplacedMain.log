@@ -1,0 +1,118 @@
+Symbol range map extraction starting
+Processing 30 files
+startProcessing "com\TRGamer28\coppermod\blocks\BlockBase.java" md5: a59bc574bbf45899e6843010bd2f93f4
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\BlockBase.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\BlockOres.java" md5: c0bc8238d6349b85c0eea242e229d250
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\BlockOres.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\BlockRicePlant.java" md5: 4e23fbdb4e3d3229a14380ee70fafa79
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\BlockRicePlant.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\item\ItemBlockVariants.java" md5: a4f984a646391dd54a6206ad492e01f1
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\item\ItemBlockVariants.java"
+
+startProcessing "com\TRGamer28\coppermod\init\ModBlocks.java" md5: 8130da22b5e6734218a325788ef4bef6
+endProcessing "com\TRGamer28\coppermod\init\ModBlocks.java"
+
+startProcessing "com\TRGamer28\coppermod\init\ModItems.java" md5: ab111fd51c72344b92ae120360cd834f
+endProcessing "com\TRGamer28\coppermod\init\ModItems.java"
+
+startProcessing "com\TRGamer28\coppermod\init\ModRecipies.java" md5: 98a0747b9ede1711609cb34916202ead
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\init\ModRecipies.java"
+
+startProcessing "com\TRGamer28\coppermod\items\ItemBase.java" md5: bdfba457511b27cceac530feb04c058a
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\ItemBase.java"
+
+startProcessing "com\TRGamer28\coppermod\items\armor\ArmorBase.java" md5: 175777b59be160d96482f4871e590837
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\armor\ArmorBase.java"
+
+startProcessing "com\TRGamer28\coppermod\items\food\FoodBase.java" md5: b178a5daba600b5871ab189e2cec7cff
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\food\FoodBase.java"
+
+startProcessing "com\TRGamer28\coppermod\items\food\ItemRice.java" md5: 867288ac8871c9e81a829c2328581dd3
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\food\ItemRice.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolArrow.java" md5: 3a35d11e7f9a58b663d794c407fa8af9
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolArrow.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolAxe.java" md5: 70d44eaaed11e66f3693c9f1d12092f3
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolAxe.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolBow.java" md5: 42ed3813e3f844c3c01ce07a9ac21f06
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolBow.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolHoe.java" md5: 3b8ed9e7e30dcc10caf21954ae20268e
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolHoe.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolMace.java" md5: 01ab4b96c5fac96aae3a6e418404407c
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolMace.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolPickaxe.java" md5: 9719dc99f4e159e2e498152afd32f6a6
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolPickaxe.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolSai.java" md5: 98cf033eeb9c43bcb493ddb81a57dffd
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolSai.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolSpade.java" md5: 012959efe0bcdc2db387fc51a30aa788
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolSpade.java"
+
+startProcessing "com\TRGamer28\coppermod\items\tools\ToolSword.java" md5: 484c76ed3b098d4a5ce51103343a41c1
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\items\tools\ToolSword.java"
+
+startProcessing "com\TRGamer28\coppermod\proxy\ClientProxy.java" md5: ead27c55b9c934cd9861ffc5e7f4bee1
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\proxy\ClientProxy.java"
+
+startProcessing "com\TRGamer28\coppermod\proxy\CommonProxy.java" md5: d394d2bbe0722f8e172e6892e81cdc83
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\proxy\CommonProxy.java"
+
+startProcessing "com\TRGamer28\coppermod\util\IHasModel.java" md5: 71a5cac5143772987b83d20e2cb8b3d8
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\IHasModel.java"
+
+startProcessing "com\TRGamer28\coppermod\util\IMetaName.java" md5: 08473d5479b5efa02054a7267c335264
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\IMetaName.java"
+
+startProcessing "com\TRGamer28\coppermod\util\ItemBlockVariants.java" md5: 4afd3a1d2a58505f1bec9d6a10f35553
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\ItemBlockVariants.java"
+
+startProcessing "com\TRGamer28\coppermod\util\Refrence.java" md5: e125f04f61957dbe48d8ad4839daaeb6
+endProcessing "com\TRGamer28\coppermod\util\Refrence.java"
+
+startProcessing "com\TRGamer28\coppermod\util\handlers\EnumHandler.java" md5: a0fc70f721c83eeb03e7cfbe2410a508
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\handlers\EnumHandler.java"
+
+startProcessing "com\TRGamer28\coppermod\util\handlers\RegistryHandler.java" md5: b9a66226da88ff28c9b98cdcaa56a888
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\handlers\RegistryHandler.java"
+
+startProcessing "com\TRGamer28\coppermod\world\gen\WorldGenCustomOres.java" md5: d071ca24774565c163d3400c6a974ea2
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\world\gen\WorldGenCustomOres.java"
+
+startProcessing "com\TRGamer28\mysticcraft\Main.java" md5: 00d9599a9b052c7f778f546bbf036d34
+Cache Hit!
+endProcessing "com\TRGamer28\mysticcraft\Main.java"
+

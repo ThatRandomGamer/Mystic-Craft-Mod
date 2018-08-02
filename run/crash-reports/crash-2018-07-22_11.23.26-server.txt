@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 7/22/18 11:23 AM
+Description: Exception ticking world
+
+java.lang.RuntimeException: class com.TRGamer28.coppermod.blocks.DualFurnace.TileEntityDualFurnace is missing a mapping! This is a bug!
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89)
+	at net.minecraft.tileentity.TileEntity.getUpdateTag(TileEntity.java:226)
+	at net.minecraft.network.play.server.SPacketChunkData.<init>(SPacketChunkData.java:51)
+	at net.minecraft.server.management.PlayerChunkMapEntry.update(PlayerChunkMapEntry.java:263)
+	at net.minecraft.server.management.PlayerChunkMap.tick(PlayerChunkMap.java:139)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:236)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:829)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:741)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89)
+	at net.minecraft.tileentity.TileEntity.getUpdateTag(TileEntity.java:226)
+	at net.minecraft.network.play.server.SPacketChunkData.<init>(SPacketChunkData.java:51)
+	at net.minecraft.server.management.PlayerChunkMapEntry.update(PlayerChunkMapEntry.java:263)
+	at net.minecraft.server.management.PlayerChunkMap.tick(PlayerChunkMap.java:139)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:236)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player119'/1614, l='New World', x=-137.20, y=72.00, z=-232.26]]
+	Chunk stats: ServerChunkCache: 355 Drop: 0
+	Level seed: 6205058040585296431
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-204,64,-220), Chunk: (at 4,4,4 in -13,-14; contains blocks -208,0,-224 to -193,255,-209), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 1795 game time, 1795 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 85434 (now: false), thunder time: 156226 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:829)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:741)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:590)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 7 (x86) version 6.1
+	Java Version: 1.8.0_171, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 699917648 bytes (667 MB) / 1046937600 bytes (998 MB) up to 1046937600 bytes (998 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.2.2634 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID        | Version      | Source                           | Signature |
+	|:--------- |:--------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp       | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.2.2634.jar | None      |
+	| UCHIJAAAA | forge     | 14.23.2.2634 | forgeSrc-1.12.2-14.23.2.2634.jar | None      |
+	| UCHIJAAAA | cm        | 1.2 beta     | bin                              | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player119'/1614, l='New World', x=-137.20, y=72.00, z=-232.26]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

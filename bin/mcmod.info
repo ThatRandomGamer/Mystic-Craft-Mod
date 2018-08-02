@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cm",
+  "name": "Mystic Craft",
+  "description": "A mod to add  medivel like objects in minecraft.",
+  "version": "1.1 beta",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TRGamer28"],
+  "credits": "Made by ThatRandomGamer aka TRGamer28, a Youtuber",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2018-07-25 07:49:57 +0530",
+      "taiga": "2018-07-25 07:50:50 +0530",
+      "extreme_hills": "2018-07-25 07:50:25 +0530",
+      "river": "2018-07-25 07:50:43 +0530"
+    },
+    "done": false
+  }
+}

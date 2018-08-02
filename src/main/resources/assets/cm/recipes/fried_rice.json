@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cm:rice"
+        },
+
+
+{
+            "item": "minecraft:carrot"
+        },
+
+
+{
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "cm:fried_rice",
+        "count": 1
+    }
+}

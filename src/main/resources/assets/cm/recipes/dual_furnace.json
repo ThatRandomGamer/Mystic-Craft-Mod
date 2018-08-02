@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "_ _",
+        "___"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "_": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "cm:dual_furnace",
+        "count": 1
+    }
+}

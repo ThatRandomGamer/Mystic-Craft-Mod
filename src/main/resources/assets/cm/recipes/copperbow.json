@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "INS",
+        "N S",
+        "INS"
+    ],
+   
+    "key":
+    {
+        "N":
+        {
+            "item": "cm:copper_ingot"
+        }
+         ,
+                "S":
+        {
+            "item": "minecraft:string"
+        },
+        
+                "I":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:copperbow",
+        "count": 1,
+        "data":0
+    }
+}

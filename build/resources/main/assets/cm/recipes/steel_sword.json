@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " C ",
+        " C ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "cm:steel_ingot"
+        }
+        ,
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cm:steel_sword",
+        "count": 1
+    }
+}

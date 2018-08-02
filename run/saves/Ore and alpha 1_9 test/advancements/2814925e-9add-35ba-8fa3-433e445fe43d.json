@@ -1,0 +1,35 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2018-07-02 16:40:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-07-02 16:40:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2018-07-02 16:42:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2018-07-02 16:42:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert_hills": "2018-07-02 16:43:01 +0530",
+      "savanna": "2018-07-02 16:40:58 +0530",
+      "savanna_rock": "2018-07-02 16:37:31 +0530",
+      "desert": "2018-07-02 16:42:59 +0530"
+    },
+    "done": false
+  }
+}

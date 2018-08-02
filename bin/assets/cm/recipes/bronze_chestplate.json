@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "N N",
+        "NNN",
+        "NNN"
+    ],
+   
+    "key":
+    {
+        "N":
+        {
+            "item": "cm:bronze_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:bronze_chestplate",
+        "count": 1,
+        "data":0
+    }
+}

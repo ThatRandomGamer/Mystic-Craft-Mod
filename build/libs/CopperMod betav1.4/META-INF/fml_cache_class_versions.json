@@ -1,0 +1,18 @@
+{
+  "com/TRGamer28/coppermod/Main": 52,
+  "com/TRGamer28/coppermod/blocks/BlockBase": 52,
+  "com/TRGamer28/coppermod/init/ModBlocks": 52,
+  "com/TRGamer28/coppermod/init/ModItems": 52,
+  "com/TRGamer28/coppermod/init/ModRecipies": 52,
+  "com/TRGamer28/coppermod/items/ItemBase": 52,
+  "com/TRGamer28/coppermod/items/tools/ToolAxe": 52,
+  "com/TRGamer28/coppermod/items/tools/ToolHoe": 52,
+  "com/TRGamer28/coppermod/items/tools/ToolPickaxe": 52,
+  "com/TRGamer28/coppermod/items/tools/ToolSpade": 52,
+  "com/TRGamer28/coppermod/items/tools/ToolSword": 52,
+  "com/TRGamer28/coppermod/proxy/ClientProxy": 52,
+  "com/TRGamer28/coppermod/proxy/CommonProxy": 52,
+  "com/TRGamer28/coppermod/util/IHasModel": 52,
+  "com/TRGamer28/coppermod/util/Refrence": 52,
+  "com/TRGamer28/coppermod/util/handlers/RegistryHandler": 52
+}

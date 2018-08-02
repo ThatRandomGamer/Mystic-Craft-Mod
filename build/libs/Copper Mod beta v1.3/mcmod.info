@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cm",
+  "name": "Copper Mod",
+  "description": "A mod to add Copper Ore, Copper and its various tools to Minecraft.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TRGamer28"],
+  "credits": "Made by ThatRandomGamer aka TRGamer28, a Youtuber",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

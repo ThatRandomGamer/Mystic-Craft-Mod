@@ -1,0 +1,115 @@
+{
+  "com/TRGamer28/coppermod/Main": {
+    "name": "com/TRGamer28/coppermod/Main",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "com/TRGamer28/coppermod/Main",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "cm"
+          },
+          "name": {
+            "value": "Copper Mod"
+          },
+          "version": {
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "com.TRGamer28.coppermod.proxy.ClientProxy"
+          },
+          "serverSide": {
+            "value": "com.TRGamer28.coppermod.proxy.CommonProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  },
+  "com/TRGamer28/coppermod/items/ItemBase": {
+    "name": "com/TRGamer28/coppermod/items/ItemBase",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/items/tools/ToolAxe": {
+    "name": "com/TRGamer28/coppermod/items/tools/ToolAxe",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/items/tools/ToolHoe": {
+    "name": "com/TRGamer28/coppermod/items/tools/ToolHoe",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/items/tools/ToolPickaxe": {
+    "name": "com/TRGamer28/coppermod/items/tools/ToolPickaxe",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/items/tools/ToolSpade": {
+    "name": "com/TRGamer28/coppermod/items/tools/ToolSpade",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/items/tools/ToolSword": {
+    "name": "com/TRGamer28/coppermod/items/tools/ToolSword",
+    "interfaces": [
+      "com/TRGamer28/coppermod/util/IHasModel"
+    ]
+  },
+  "com/TRGamer28/coppermod/util/handlers/RegistryHandler": {
+    "name": "com/TRGamer28/coppermod/util/handlers/RegistryHandler",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "com/TRGamer28/coppermod/util/handlers/RegistryHandler"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      }
+    ]
+  }
+}

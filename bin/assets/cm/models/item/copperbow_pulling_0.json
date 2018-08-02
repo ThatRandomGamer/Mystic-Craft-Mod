@@ -1,0 +1,6 @@
+{
+    "parent": "cm:item/copperbow",
+    "textures": {
+        "layer0": "cm:items/copperbow_pulling_0"
+    }
+}

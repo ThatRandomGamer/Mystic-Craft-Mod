@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " C ",
+        "CCC",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:diamond"
+        }
+        ,
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cm:diamond_sai",
+        "count": 1
+    }
+}
