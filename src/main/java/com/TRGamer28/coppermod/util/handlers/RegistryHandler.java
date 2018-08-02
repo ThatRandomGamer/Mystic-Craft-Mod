@@ -55,11 +55,17 @@ public class RegistryHandler
    
    }
    
-   public static void otherRegistries()
+   //Initilization Registries
+	public static void preInitRegistries()
 	{
+		
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		
 	}
+	
+	public static void initRegistries() {}
+	
+	public static void postInitRegistries() {}
 
    
 }
