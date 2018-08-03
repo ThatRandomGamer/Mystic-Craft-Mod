@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cm:boiled_chicken"
+        },
+
+{
+            "item": "minecraft:egg"
+        },
+{
+            "item": "minecraft:wheat"
+        }
+
+
+    ],
+    "result": {
+        "item": "cm:fried_chicken",
+        "count": 3
+    }
+}

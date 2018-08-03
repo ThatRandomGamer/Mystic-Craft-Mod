@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=normal": { "model": "cm:tin_ore_normal" }
+    }
+}

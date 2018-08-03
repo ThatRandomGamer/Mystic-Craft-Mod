@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "cm:carbon_ore_normal" }
+    }
+}
