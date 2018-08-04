@@ -226,7 +226,7 @@ public class TileEntityDualFurnace extends TileEntity implements IInventory, ITi
 		if(((ItemStack)this.inventory.get(0)).isEmpty() || ((ItemStack)this.inventory.get(1)).isEmpty()) return false;
 		else 
 		{
-			ItemStack result = DualFurnaceRecipes.getInstance().getSinteringResult((ItemStack)this.inventory.get(0), (ItemStack)this.inventory.get(1));	
+			ItemStack result = DualFurnaceRecipes.getInstance().getSmeltingResult((ItemStack)this.inventory.get(0), (ItemStack)this.inventory.get(1));	
 			if(result.isEmpty()) return false;
 			else
 			{
@@ -245,7 +245,7 @@ public class TileEntityDualFurnace extends TileEntity implements IInventory, ITi
 		{
 			ItemStack input1 = (ItemStack)this.inventory.get(0);
 			ItemStack input2 = (ItemStack)this.inventory.get(1);
-			ItemStack result = DualFurnaceRecipes.getInstance().getSinteringResult(input1, input2);
+			ItemStack result = DualFurnaceRecipes.getInstance().getSmeltingResult(input1, input2);
 			ItemStack output = (ItemStack)this.inventory.get(3);
 			
 			if(output.isEmpty()) this.inventory.set(3, result.copy());

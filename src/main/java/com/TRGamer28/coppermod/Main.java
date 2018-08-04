@@ -23,7 +23,7 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.otherRegistries();}
+	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.preInitRegistries();}
 	{
 		
 	}
@@ -32,11 +32,12 @@ public class Main {
 	public static void init(FMLInitializationEvent event)
 	{
 		ModRecipies.init();
+		RegistryHandler.initRegistries();
 	}
 	
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event)
 	{
-		
+		RegistryHandler.postInitRegistries();
 	}
 }

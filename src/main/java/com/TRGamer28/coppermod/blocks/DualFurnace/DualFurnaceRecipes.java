@@ -33,12 +33,12 @@ public class DualFurnaceRecipes
 	
 	public void addDualRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience) 
 	{
-		if(getSinteringResult(input1, input2) != ItemStack.EMPTY) return;
+		if(getSmeltingResult(input1, input2) != ItemStack.EMPTY) return;
 		this.smeltingList.put(input1, input2, result);
 		this.experienceList.put(result, Float.valueOf(experience));
 	}
 	
-	public ItemStack getSinteringResult(ItemStack input1, ItemStack input2) 
+	public ItemStack getSmeltingResult(ItemStack input1, ItemStack input2) 
 	{
 		for(Entry<ItemStack, Map<ItemStack, ItemStack>> entry : this.smeltingList.columnMap().entrySet()) 
 		{
