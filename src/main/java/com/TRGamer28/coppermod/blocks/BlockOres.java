@@ -12,6 +12,7 @@ import com.TRGamer28.coppermod.util.handlers.EnumHandler;
 import com.TRGamer28.coppermod.Main;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
@@ -41,6 +42,11 @@ public class BlockOres extends Block implements IHasModel, IMetaName
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, EnumHandler.EnumType.NORMAL));
+		
+		setSoundType(SoundType.STONE);
+		setHardness(3.0F);
+		setResistance(15.0F);
+		setHarvestLevel("pickaxe", 1);
 		
 		this.name = name;
 		this.dimension = dimension;

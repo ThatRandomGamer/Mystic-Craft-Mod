@@ -100,7 +100,7 @@ public class ContainerDualFurnace extends Container
 			{		
 				Slot slot1 = (Slot)this.inventorySlots.get(index + 1);
 				
-				if(!DualFurnaceRecipes.getInstance().getSinteringResult(stack1, slot1.getStack()).isEmpty())
+				if(!DualFurnaceRecipes.getInstance().getSmeltingResult(stack1, slot1.getStack()).isEmpty())
 				{
 					if(!this.mergeItemStack(stack1, 0, 2, false)) 
 					{
