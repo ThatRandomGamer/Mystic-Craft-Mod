@@ -51,7 +51,7 @@ public class WorldGenCustomOres implements IWorldGenerator
 			
 		case 0:
 			
-			runGenerator(copper_ore, world, random, chunkX, chunkZ, 90, 10, 100);
+			runGenerator(copper_ore, world, random, chunkX, chunkZ, 80, 10, 100);
 			runGenerator(tin_ore, world, random, chunkX, chunkZ, 100, 6, 200);
 			runGenerator(silver_ore, world, random, chunkX, chunkZ, 150, 20, 100);
 			runGenerator(limestone, world, random, chunkX, chunkZ, 20, 20, 100);
